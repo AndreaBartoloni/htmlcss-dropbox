@@ -1,0 +1,10 @@
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 15px;
+}
+.container-body{
+    width: 60%;
+    margin: auto;
+}
