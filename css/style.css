@@ -1,25 +1,35 @@
-* {
+body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
 }
-header{
-    top: 0;
-    width: 100%;  
+:root{
+    --navbar-height: 5rem;
 }
-.container{
+header{
+    height: var(--navbar-height);
+    width: 100%;  
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+}
+header > nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: auto;
     width: 95%;
-    min-height: 70px;
+    height: 100%;
+    
+}
+main{
+    padding-top: var(--navbar-height);
 }
 .logo{
     vertical-align: middle;
     margin-right: 10px;
 }
-a{
+.item{
     margin: 0px 10px 0px 10px;
     text-decoration: none;
     color: black;
@@ -43,12 +53,31 @@ h1{
     width: 40px;
     position: absolute;
 }
-.container-img-hero{
-    width: 70%;
-}
-.container-img-hero > img{
+.w-70 > img{
     width: 700px;
 }
 .btn-hero{
     margin: 30px 0px;
+}
+.people{
+    text-align: center;
+    border-bottom: solid 1px black;
+}
+.people > img{
+    width: 15px;
+    vertical-align: middle;
+}
+.card{
+    border: solid 1px black;
+    min-height: auto;
+    
+}
+li{
+    margin: 20px 0px;
+}
+.btn-partner{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
 }
