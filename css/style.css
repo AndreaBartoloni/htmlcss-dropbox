@@ -94,9 +94,62 @@ h2{
     font-size: 35px;
 }
 .banner{
-    height: 200px;
+    min-height: auto;
     display: flex;
 }
+.container-content{
+    overflow-y: auto;
+    height: 500px;
+}
+.container-content{
+    background-color: #d2d2d2;
+}
+
 .container-quadrati{
     position: relative;
+   
 }
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoq{
+    width: 50%;
+    height: auto;
+    
+}
+.w-20 > span{
+    color:#d2d2d2;
+    font-size: 12px;
+    margin: 0px 8px 0px 8px;
+}
+.w-20 > img{
+    vertical-align: middle;
+}
+.banner-celeste{
+    background-color: #abcae2;
+}
+.w-55 > h2{
+    color: brown;
+}
+.w-33 > button{
+    border: none;
+    padding: 7px 15px 7px 15px;
+    background-color: white;
+}
+footer{
+    background-color: black;
+}
+.lista > div > h4 {
+    color: white;
+    font-size: 20px;
+}
+.lista > div > p{
+    font-size: 12px;
+    color: white;
+}
+.border{
+    border-bottom: solid 1px gray;
+}
+
