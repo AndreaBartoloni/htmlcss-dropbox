@@ -4,6 +4,13 @@
     border: none;
     padding: 10px 15px 10px 15px;
 }
+p{
+    font-size: 13px;
+    line-height: 1.5;
+}
+span{
+    font-size: 13px; 
+}
 .container-body{
     width: 60%;
     margin: auto;
@@ -130,6 +137,7 @@
 .pl-64 { padding-left: 64px; }
 .py-64 { padding: 64px 0; }
 .px-64 { padding: 0 64px; }
+.py-80 { padding: 80px 0px; }
 
 /*** MARGIN ***/
 .m-8 { margin: 8px; }
@@ -146,6 +154,7 @@
 .mr-16 { margin-right: 16px; }
 .mb-16 { margin-bottom: 16px; }
 .ml-16 { margin-left: 16px; }
+.ml-22 { margin-left: 22px; }
 .my-16 { margin: 16px 0; }
 .mx-16 { margin: 0 16px; }
 
@@ -171,7 +180,7 @@
 .bg-brown { background-color: brown; }
 .bg-red { background-color: red; }
 .bg-lightblue { background-color: lightblue; }
-.bg-yell { background-color: yellow; }
+.bg-yellow { background-color: yellow; }
 .bg-darkblue { background-color: darkblue; }
 .bg-dodgerblue { background-color: dodgerblue; }
 .bg-pink { background-color: pink; }
